@@ -1,0 +1,46 @@
+body{
+  background-color: #F5F6FA;
+}
+p{
+  margin-bottom: 0px;
+  margin-top: auto;
+  color: white;
+}
+.ls{
+  padding: 100px;
+}
+.App {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
+  background-color: #00DEAB;
+  border-radius: 20px;
+  box-shadow: 5px 5px 14px -9px rgba(0,0,0,0.62);
+  
+}
+.card-icon{
+  cursor: pointer;
+}
+.card-title{
+  width: 80%;
+  
+}
+.submit-btn{
+  box-shadow: 5px 5px 14px -9px rgba(0,0,0,0.62);
+  background-color: #00DEAB;
+  border-width: 0px;
+
+
+}
+
